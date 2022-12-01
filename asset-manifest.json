@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.871d7ca1.css",
-    "main.js": "/static/js/main.b6294dc3.js",
-    "static/media/registrationBg.png": "/static/media/registrationBg.5a4caf0987ecc46c0c17.png",
-    "static/media/menuBg.png": "/static/media/menuBg.18d2ebb425654c909235.png",
-    "static/media/homeBg.png": "/static/media/homeBg.3655ae55db56379580ea.png",
-    "static/media/Arm Hmk's Bebas Neue.TTF": "/static/media/Arm Hmk's Bebas Neue.30d36b994a87f54e1019.TTF",
-    "static/media/levelTwo.png": "/static/media/levelTwo.4bb3e08d6534ccc84f86.png",
-    "static/media/levelThree.png": "/static/media/levelThree.850503ca9fa0cbe406dc.png",
-    "static/media/levelOne.png": "/static/media/levelOne.717328665a7701aff972.png",
-    "static/media/settingsBallon.png": "/static/media/settingsBallon.90fda89bcd5c775296b0.png",
-    "index.html": "/index.html",
-    "main.871d7ca1.css.map": "/static/css/main.871d7ca1.css.map",
-    "main.b6294dc3.js.map": "/static/js/main.b6294dc3.js.map"
+    "main.css": "/quizz/static/css/main.4839b210.css",
+    "main.js": "/quizz/static/js/main.6cc11a03.js",
+    "static/media/registrationBg.png": "/quizz/static/media/registrationBg.5a4caf0987ecc46c0c17.png",
+    "static/media/menuBg.png": "/quizz/static/media/menuBg.18d2ebb425654c909235.png",
+    "static/media/homeBg.png": "/quizz/static/media/homeBg.3655ae55db56379580ea.png",
+    "static/media/Arm Hmk's Bebas Neue.TTF": "/quizz/static/media/Arm Hmk's Bebas Neue.30d36b994a87f54e1019.TTF",
+    "static/media/levelTwo.png": "/quizz/static/media/levelTwo.4bb3e08d6534ccc84f86.png",
+    "static/media/levelThree.png": "/quizz/static/media/levelThree.850503ca9fa0cbe406dc.png",
+    "static/media/levelOne.png": "/quizz/static/media/levelOne.717328665a7701aff972.png",
+    "static/media/settingsBallon.png": "/quizz/static/media/settingsBallon.90fda89bcd5c775296b0.png",
+    "index.html": "/quizz/index.html",
+    "main.4839b210.css.map": "/quizz/static/css/main.4839b210.css.map",
+    "main.6cc11a03.js.map": "/quizz/static/js/main.6cc11a03.js.map"
   },
   "entrypoints": [
-    "static/css/main.871d7ca1.css",
-    "static/js/main.b6294dc3.js"
+    "static/css/main.4839b210.css",
+    "static/js/main.6cc11a03.js"
   ]
 }
