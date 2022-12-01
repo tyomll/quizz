@@ -1,18 +1,101 @@
-.home-page-wrapper{
+.home-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../../images/homeBg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 80%;
+  background-color: #d8d8d791;
+  border-radius: 45px;
+  position: relative;
+}
+.home-page-heading {
+  color: #323232;
+  font-size: 100pt;
+  letter-spacing: 7px;
+  line-height: 130px;
+}
+.home-page-heading span {
+  margin-left: 200px;
+}
+.home-page-start-btn {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right: -50px;
+  cursor: pointer;
+}
+
+.home-registration-page-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(192, 192, 192, 0.274);
+    background: url(../../images/registrationBg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.home-page-registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 80%;
+  background-color: #d8d8d769;
+  border-radius: 45px;
+  flex-direction: column;
 }
-.home-page-container{
+.home-page-registration-heading {
+    font-size: 70px;
+}
+.home-page-registration-inputs {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 200px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -30px;
 }
-.home-page-start-btn{
+.home-page-registration-inputs input{
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}
+.home-page-registration-inputs button{
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.home-page-registration-inputs button:hover{
+    background-color: rgba(255, 233, 192, 0.392);
+}
+
+.swal-title{
+    font-size: 40px;
+}
+.swal-text{
+    font-size: 30px;
+}
+/* .home-page-start-btn{
     width: 120px;
     height: 50px;
     background-color: rgb(228, 151, 9);
@@ -27,4 +110,4 @@
 .home-page-start-btn:hover{
     background-color: rgb(197, 132, 11);
  
-}
+} */

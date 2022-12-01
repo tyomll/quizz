@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "bebas";
+    src: local("ArmHmksBebasNeue"),
+      url("./fonts/Arm Hmk's Bebas Neue.TTF") format("truetype");
+  }
 *{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'bebas';
+    font-weight: 100;
 }
