@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/quizz/static/css/main.4839b210.css",
-    "main.js": "/quizz/static/js/main.6cc11a03.js",
+    "main.css": "/quizz/static/css/main.bcc73e2d.css",
+    "main.js": "/quizz/static/js/main.0fdd49d4.js",
+    "static/media/levelOneBg.png": "/quizz/static/media/levelOneBg.3ba249806aa7432384d8.png",
     "static/media/registrationBg.png": "/quizz/static/media/registrationBg.5a4caf0987ecc46c0c17.png",
     "static/media/menuBg.png": "/quizz/static/media/menuBg.18d2ebb425654c909235.png",
     "static/media/homeBg.png": "/quizz/static/media/homeBg.3655ae55db56379580ea.png",
@@ -9,13 +10,14 @@
     "static/media/levelTwo.png": "/quizz/static/media/levelTwo.4bb3e08d6534ccc84f86.png",
     "static/media/levelThree.png": "/quizz/static/media/levelThree.850503ca9fa0cbe406dc.png",
     "static/media/levelOne.png": "/quizz/static/media/levelOne.717328665a7701aff972.png",
+    "static/media/levelOneQuestionBg.png": "/quizz/static/media/levelOneQuestionBg.ec912941a56adc9cbe5b.png",
     "static/media/settingsBallon.png": "/quizz/static/media/settingsBallon.90fda89bcd5c775296b0.png",
     "index.html": "/quizz/index.html",
-    "main.4839b210.css.map": "/quizz/static/css/main.4839b210.css.map",
-    "main.6cc11a03.js.map": "/quizz/static/js/main.6cc11a03.js.map"
+    "main.bcc73e2d.css.map": "/quizz/static/css/main.bcc73e2d.css.map",
+    "main.0fdd49d4.js.map": "/quizz/static/js/main.0fdd49d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4839b210.css",
-    "static/js/main.6cc11a03.js"
+    "static/css/main.bcc73e2d.css",
+    "static/js/main.0fdd49d4.js"
   ]
 }
