@@ -1,0 +1,5 @@
+.control-ballons{
+    position: absolute;
+    left: 40px;
+    z-index: 4444;
+}

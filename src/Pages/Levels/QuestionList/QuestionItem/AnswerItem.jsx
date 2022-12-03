@@ -1,14 +1,16 @@
  import React from "react";
+import { useEffect } from "react";
 
 const AnswerItem = ({
   answer,
+  index,
   bgc,
-
   handleUserChoice,
-
+  setQuestionIndex
 }) => {
- 
-
+  useEffect(() => {
+    setQuestionIndex(index)
+  })
   return (
     <div
       className="answer-item"
@@ -23,7 +25,3 @@ const AnswerItem = ({
 };
 export default AnswerItem;
 
-// ? `url(require("../../../../images/levelOneQuestionBg"))`
-// : "#568a3f" && selectedRight
-// ? "#568a3f"
-// : "#992727",

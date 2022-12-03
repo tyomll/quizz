@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./ControlBallons.css"
 const ControlBallons = () => {
   return (
     <div className="control-ballons">

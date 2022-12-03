@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./QuestionList.css";
 import AnswerItem from "./QuestionItem/AnswerItem";
 
@@ -8,11 +8,11 @@ const QuestionList = ({
   questions,
   questionNumber,
   setQuestionNumber,
+  setQuestionIndex,
+  questionIndex,
 }) => {
   const [clickedCount, setClickedCount] = useState(0);
-
   const [selectedRight, setSelectedRight] = useState("null");
-
   const handleUserChoice = (answer) => {
     if (clickedCount < 1) {
       if (answer.isRight === "true") {
@@ -29,22 +29,19 @@ const QuestionList = ({
       answer.bgc = true
     }
     setClickedCount(0);
-    // setTimeout(() => {
-    //   setSelectedRight(null);
-    // }, 1000);
+
   };
 
   const kjk = (answer) => {
-    if(answer.bgc){
-      if(answer.isRight === 'true'){
+    if (answer.bgc) {
+      if (answer.isRight === 'true') {
         return 'green'
       }
-      if(answer.isRight === 'false'){
+      if (answer.isRight === 'false') {
         return 'red'
       }
     }
   }
-
   return (
     <div className="question-container">
       <div className="question-title">
@@ -62,6 +59,7 @@ const QuestionList = ({
               return (
                 <AnswerItem
                   bgc={kjk(answer)}
+                  index={i}
                   handleUserChoice={handleUserChoice}
                   selectedRight={selectedRight}
                   setSelectedRight={setSelectedRight}
@@ -73,6 +71,8 @@ const QuestionList = ({
                   setPointCount={setPointCount}
                   questionNumber={questionNumber}
                   setQuestionNumber={setQuestionNumber}
+                  setQuestionIndex={setQuestionIndex}
+                  questionIndex={questionIndex}
                 />
               );
             }

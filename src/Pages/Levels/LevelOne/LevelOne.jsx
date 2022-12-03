@@ -1,6 +1,8 @@
 import ControlBallons from "../../Menu/ControlBallons";
 import QuestionList from "../QuestionList/QuestionList";
 import "./LevelOne.css";
+import { useState } from "react";
+import LevelOneEnd from "./LevelOneEnd/LevelOneEnd";
 
 const LevelOne = ({
   pointsCount,
@@ -9,8 +11,11 @@ const LevelOne = ({
   setQuestions,
   questionNumber,
   setQuestionNumber,
+  setLevel,
 }) => {
-  return (
+  const [questionIndex, setQuestionIndex] = useState(0)
+  const lvl = 1
+  const levelOneGame = (
     <div className="level-one-wrapper">
       <ControlBallons className="level-one-control-ballons" />
       <div className="level-one-container">
@@ -24,10 +29,14 @@ const LevelOne = ({
           setQuestions={setQuestions}
           questionNumber={questionNumber}
           setQuestionNumber={setQuestionNumber}
+          setQuestionIndex={setQuestionIndex}
+          questionIndex={questionIndex}
+          lvl={lvl}
         />
       </div>
     </div>
   );
+  return questions && questionIndex <= 4 ? levelOneGame : <LevelOneEnd />
 };
 
 export default LevelOne;

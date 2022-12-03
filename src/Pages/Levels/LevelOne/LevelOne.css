@@ -13,18 +13,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     width: 80%;
     background-color: #d8d8d791;
     border-radius: 45px;
     position: relative;
 }    
-.level-one-wrapper .control-ballons{
+/* .level-one-wrapper .control-ballons{
     position: absolute;
     bottom: 0;
     left: 20px;
     z-index: 4444;
-}
+} */
 .level-one-wrapper .control-ballons .settings-ballon{
     height: 300px;
 }
