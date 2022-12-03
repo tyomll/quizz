@@ -35,6 +35,7 @@
 .thrid-level-description-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 700px;
     width: 80%;
     background-color: #d8d8d791;
@@ -83,9 +84,70 @@
     justify-content: center;
     cursor: pointer;
 }
-/*/////////////////////////*/
-
-/* .third-level-wrapper > .level-three-control-ballons{
+.third-level-wrapper video{
+    height: 90vh;
+    border-radius: 20px;
+}
+.third-level-wrapper .answer-item {
+    display: flex;
+    background: url(../../../images/levelThreeQuestionBg.png);
+    width: 45%;
+    background-repeat: no-repeat;
+    height: 80px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    word-break: break-all;
+    cursor: pointer;
+}
+#root > div > div.third-level-container > div.question-container > div.question-title{
+    display: flex;
+    width: 330px;
+    background-repeat: no-repeat;
+    background: url("../../../images/levelThreeQuestBg.png");
+    height: 90px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 5px;
+    color: white;
+}
+#root > div > div.third-level-container > div.question-container{
+    width: fit-content;
+    color: white;
+}
+.third-level-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 80%;
+    background-color: #d8d8d791;
+    border-radius: 45px;
+    position: relative;
+}
+.level-three-points{
+    font-size: 50px;
     position: absolute;
-    left: 0;
-} */
+    top: 50px;
+    right: 80px;
+    background-color: #568a3f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.question-container{
+    width: 60% !important
+}

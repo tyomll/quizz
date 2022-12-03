@@ -7,7 +7,6 @@ const Menu = ({setLevel}) => {
   return (
     <div className="menu-page-wrapper">
       <div className="menu-page-container">
-        <ControlBallons/>
         <div className="levels">
           <Link to="/first-level" onClick={() => setLevel("levelOne")}>
             <img

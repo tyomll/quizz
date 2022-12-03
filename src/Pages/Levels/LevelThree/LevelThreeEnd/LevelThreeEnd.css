@@ -1,0 +1,45 @@
+.level-three-end-wrapper {
+    background: rgb(10, 99, 172);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 39);
+}
+.level-three-end-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 30%;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.level-three-heading {
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+.level-three-heading h1{
+    font-size: 90px;
+    text-align: center;
+    word-break: break-all;
+    color: rgb(10, 99, 172);;
+}
+.level-three-end-container span {
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+}
+.level-three-end-container img {
+    margin-top: 60px;
+    width: 250px;
+}
