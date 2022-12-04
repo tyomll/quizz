@@ -10,8 +10,11 @@ import axios from "axios";
 import ControlBallons from "./Pages/Menu/ControlBallons";
 
 function App() {
-  const [userName, setUserName] = useState("")
-  const [userSurname, setUserSurname] = useState("")
+  const userNameFromLocalStorage = localStorage.getItem("name") || "";
+  const userSurnameFromLocalStorage = localStorage.getItem("surname") || "";
+
+  const [userName, setUserName] = useState(userNameFromLocalStorage)
+  const [userSurname, setUserSurname] = useState(userSurnameFromLocalStorage)
   const [pointsCount, setPointCount] = useState(0);
   const [questions, setQuestions] = useState();
   const [questionNumber, setQuestionNumber] = useState(0);
@@ -34,6 +37,12 @@ function App() {
       fetchLevelOneQuestions();
     }
   }, [questionNumber]);
+  useEffect(() => {
+    localStorage.setItem('name', userName);
+  }, [userName]);
+  useEffect(() => {
+    localStorage.setItem('surname', userSurname);
+  }, [userSurname]);
   return (
     <>
       <Routes>
