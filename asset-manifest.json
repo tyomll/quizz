@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/quizz/static/css/main.bcc73e2d.css",
-    "main.js": "/quizz/static/js/main.0fdd49d4.js",
+    "main.css": "/quizz/static/css/main.e878ee36.css",
+    "main.js": "/quizz/static/js/main.67478ec0.js",
+    "static/media/song.mp3": "/quizz/static/media/song.e96d4a7d88ad03890ed4.mp3",
+    "static/media/thirdLevelDescriptionBg.png": "/quizz/static/media/thirdLevelDescriptionBg.74905a19cf8057324c29.png",
+    "static/media/secondLevelBg.png": "/quizz/static/media/secondLevelBg.15f5a60d2fd3f6866b0e.png",
     "static/media/levelOneBg.png": "/quizz/static/media/levelOneBg.3ba249806aa7432384d8.png",
+    "static/media/thirdLevelBg.png": "/quizz/static/media/thirdLevelBg.9aa0405d46e856887841.png",
     "static/media/registrationBg.png": "/quizz/static/media/registrationBg.5a4caf0987ecc46c0c17.png",
+    "static/media/videoThree.mp4": "/quizz/static/media/videoThree.cf19fa2b5b87b2e71815.mp4",
     "static/media/menuBg.png": "/quizz/static/media/menuBg.18d2ebb425654c909235.png",
+    "static/media/toSecondLevelBg.png": "/quizz/static/media/toSecondLevelBg.ec501a4e687ab8d87806.png",
     "static/media/homeBg.png": "/quizz/static/media/homeBg.3655ae55db56379580ea.png",
     "static/media/Arm Hmk's Bebas Neue.TTF": "/quizz/static/media/Arm Hmk's Bebas Neue.30d36b994a87f54e1019.TTF",
     "static/media/levelTwo.png": "/quizz/static/media/levelTwo.4bb3e08d6534ccc84f86.png",
     "static/media/levelThree.png": "/quizz/static/media/levelThree.850503ca9fa0cbe406dc.png",
+    "static/media/toThirdLevelBaloon.png": "/quizz/static/media/toThirdLevelBaloon.850503ca9fa0cbe406dc.png",
+    "static/media/toThirdLevelBg.png": "/quizz/static/media/toThirdLevelBg.894459b50a9381c6eea2.png",
     "static/media/levelOne.png": "/quizz/static/media/levelOne.717328665a7701aff972.png",
+    "static/media/logo.png": "/quizz/static/media/logo.824916223287258ec69b.png",
+    "static/media/levelThreeQuestBg.png": "/quizz/static/media/levelThreeQuestBg.36af33de12fe0d8ba4d2.png",
+    "static/media/levelThreeQuestionBg.png": "/quizz/static/media/levelThreeQuestionBg.0926d2a403397fcd4db9.png",
     "static/media/levelOneQuestionBg.png": "/quizz/static/media/levelOneQuestionBg.ec912941a56adc9cbe5b.png",
-    "static/media/settingsBallon.png": "/quizz/static/media/settingsBallon.90fda89bcd5c775296b0.png",
+    "static/media/toSecondLevelBallon.png": "/quizz/static/media/toSecondLevelBallon.188320a2ff121a61fce5.png",
     "index.html": "/quizz/index.html",
-    "main.bcc73e2d.css.map": "/quizz/static/css/main.bcc73e2d.css.map",
-    "main.0fdd49d4.js.map": "/quizz/static/js/main.0fdd49d4.js.map"
+    "main.e878ee36.css.map": "/quizz/static/css/main.e878ee36.css.map",
+    "main.67478ec0.js.map": "/quizz/static/js/main.67478ec0.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc73e2d.css",
-    "static/js/main.0fdd49d4.js"
+    "static/css/main.e878ee36.css",
+    "static/js/main.67478ec0.js"
   ]
 }
